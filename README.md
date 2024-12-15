@@ -1,5 +1,10 @@
 # WordPress PlugIn Extra Metadata 🌐 Show more clickable links in WordPress Metadata section
+<br>
 Version X.X | By Your Name | View details | Introduction to Plugin | Buy Pro Version | Live Preview of Pro Version | Rate and Review
+
+<br><br>
+
+![WordPress PlugIn Extra Metadata - Show more clickable links in WordPress Metadata section](https://raw.githubusercontent.com/tawhidurrahmandear/wordpress-plugin-extra-metadata/refs/heads/main/wordpress-plugin-extra-metadata.png)
 
 <br><br>
 
