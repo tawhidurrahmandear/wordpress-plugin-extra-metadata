@@ -37,11 +37,11 @@ if ( ! defined ( 'ABSPATH' ) ) {
 function specialpromotionandsupport_by_tawhidurrahmandear_add_plugin_links($plugin_meta, $plugin_file) {
     if ($plugin_file === plugin_basename(__FILE__)) {
         $new_links = array(
-            '<a href="https://store.devilhunter.net/wordpress-plugin/special-promotion-and-support" target="_blank">Introduction to Plugin with Documentation</a>',
-			'<a href="https://codecanyon.net/item/we-are-with-you/20284354" target="_blank">Buy Pro Version</a>',
-			'<a href="https://www.youtube.com/watch?v=mOAS7mvQjRM" target="_blank">Live Preview of Pro Version</a>',
-            '<a href="https://wordpress.org/plugins/special-promotion-and-support#reviews" target="_blank">Rate and Review at WordPress.org</a>',
-            '<a href="https://itsolution.devilhunter.net" target="_blank">Hire for WordPress Web Development</a>',
+        '<a href="https://store.devilhunter.net/wordpress-plugin/special-promotion-and-support" target="_blank">Introduction to Plugin with Documentation</a>',
+	'<a href="https://codecanyon.net/item/we-are-with-you/20284354" target="_blank">Buy Pro Version</a>',
+	'<a href="https://www.youtube.com/watch?v=mOAS7mvQjRM" target="_blank">Live Preview of Pro Version</a>',
+        '<a href="https://wordpress.org/plugins/special-promotion-and-support#reviews" target="_blank">Rate and Review at WordPress.org</a>',
+        '<a href="https://itsolution.devilhunter.net" target="_blank">Hire for WordPress Web Development</a>',
         );
 
         // Add the new links to the existing array of links
@@ -50,3 +50,6 @@ function specialpromotionandsupport_by_tawhidurrahmandear_add_plugin_links($plug
     return $plugin_meta;
 }
 add_filter('plugin_row_meta', 'specialpromotionandsupport_by_tawhidurrahmandear_add_plugin_links', 10, 2);
+
+// WordPress PlugIn Extra Metadata code available at https://github.com/tawhidurrahmandear/wordpress-plugin-extra-metadata 
+
